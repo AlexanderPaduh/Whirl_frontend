@@ -1,0 +1,299 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.container {
+    max-width: 1220px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #33383F;
+    list-style-type: none;
+
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.menu_items {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.login {
+    padding-right: 50px;
+    color: #0070A0;
+    padding-left: 20px;
+}
+
+.menu_item {
+    padding-right: 50px;
+    color: #33383F;
+}
+
+.registration {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.booking {
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    width: 139px;
+    height: 36px;
+    background-color: #0477aa;
+}
+
+.booking > p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0; /* Убираем отступы для лучшего центрирования */
+}
+
+.header_img {
+    width: 452px;
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.inform {
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    Width: 485px;
+    Height: 128px;
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+}
+
+.text_info {
+    Width: 280px;
+    Height: 90px;
+    margin-top: 70px;
+    font-size: 15px;
+}
+
+.login_info {
+    color: #0070A0;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+#info_registration {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#about_ous-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.about_ous-links {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+.about_ous-link {
+    padding-right: 50px;
+}
+
+.about_ous {
+    margin-bottom: 130px;
+}
+
+.banners {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.banner {
+    Width: 300px;
+    Height: 200px;
+}
+
+.banner_img {
+    width: 55px;
+    height: 55px;
+}
+
+.banner_title {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.banner_text {
+}
+
+.banner1 {
+    background-color: #FAEA73;
+    padding: 15px;
+
+}
+
+.banner2 {
+    background-color: #CCEFF6;
+    padding: 15px;
+
+}
+
+.banner3 {
+    background-color: #F7CEDC;
+    padding: 15px;
+}
+
+.features {
+    background-color: #F7F9FA;
+    max-height: 550px;
+
+}
+
+.features_title {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-size: 34px;
+    width: 520px;
+}
+
+.accordion_items {
+    width: 350px;
+    height: auto;
+    border-bottom: #C2CDD8 1px solid;
+    border-top: #C2CDD8 1px solid;
+
+}
+
+.accordion_name {
+    display: flex;
+    height: 60px;
+    margin: 2px;
+    font-weight: 400;
+    font-family: "Fraunces", serif;
+    font-size: 17px;
+    align-items: center;
+    cursor: pointer; /* Додаємо курсор, щоб показати, що це клікабельний елемент */
+}
+
+
+.accordion_name.active {
+    font-weight: lighter;
+}
+
+.arrow-down_accordion {
+    margin-left: auto;
+    position: relative;
+    right: 0;
+}
+
+.accordion_description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out; /* Плавна анімація */
+}
+
+.accordion_description.active {
+    max-height: 200px; /* Налаштуйте висоту за потребою */
+    padding-bottom: 30px;
+}
+
+.features_img {
+    position: relative;
+    top: -200px;
+}
+
+
+.main-accordeon {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+.footer {
+    background-color: #0070A0;
+}
+
+.footer_img {
+    padding: 50px 0 40px 0;
+}
+
+.footer_all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_text {
+    width: 350px;
+    padding: 50px 0 40px 0;
+
+}
+
+#footer_title {
+    font-weight: 400;
+    font-family: "Fraunces", serif;
+    font-size: 37px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer_text {
+    color: #fff;
+}
+
+.footer_info {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style-image: url('../img/accept_arrow.svg');
+    padding-left: 5px;
+}
+
+.footer_feachurs {
+    margin-bottom: 40px;
+
+}
